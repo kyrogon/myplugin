@@ -1,0 +1,30 @@
+{
+  "name": "myplugin",
+  "version": "1.0.3",
+  "description": "A gutenberg block suite (testing)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no testing supported'",
+    "start": "gulp",
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "author": "Aaron Rogers",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.12.13",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-zip": "^5.1.0",
+    "react": "^17.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {}
+}
